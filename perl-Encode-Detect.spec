@@ -1,6 +1,6 @@
 Name: perl-Encode-Detect
 Version: 1.01
-Release: 11%{?dist}
+Release: 13%{?dist}
 Summary: Encode::Encoding subclass that detects the encoding of data
 
 Group: Development/Libraries
@@ -56,6 +56,12 @@ find "${RPM_BUILD_ROOT}" -depth -type d -exec rmdir {} 2>/dev/null \;
 %{_mandir}/man3/Encode::Detect::Detector.3*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.01-13
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.01-12
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.01-11
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
